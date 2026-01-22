@@ -14,7 +14,7 @@ const Hero = () => {
       className='min-h-screen flex items-center pt-20 pb-16 bg-linear-to-r from-slate-900 via-slate-700 to-dark-100'
 
     >
-      <div id='home' className='container mx-auto px-6 flex flex-col md:flex-row items-center justify-between'>
+      <div className='container mx-auto px-6 flex flex-col md:flex-row items-center justify-between'>
         {/* Left side contant */}
         <div className='md:w-1/2 mb-10 md:mb-0'>
           <h1 className='text-4xl md:text-6xl font-bold mb-4 '>Hi I am <span>Shubhranil Chowdhury</span></h1>
