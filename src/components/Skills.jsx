@@ -12,7 +12,7 @@ const Skills = () => {
             id='skills'
             className='py-20 bg-dark-100'
         >
-            <div className='container mx-auto px-6'>
+            <div id='skills' className='container mx-auto px-6'>
                 <h2 className='text-3xl font-bold text-center mb-4'>
                     My
                     <span className='text-purple'>Skills</span>
