@@ -13,7 +13,7 @@ const About = () => {
       id='about'
       className='py-20 bg-dark-200'
     >
-      <div className='container mx-10 px-6  '>
+      <div className='container mx-auto px-6  '>
         {/* Heading  */}
         <h2 className='text-3xl font-bold text-center mb-4'>About
           <span className='text-purple '>Me</span>
