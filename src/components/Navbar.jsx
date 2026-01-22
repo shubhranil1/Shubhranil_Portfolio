@@ -100,9 +100,7 @@ const Navbar = () => {
                     <button onClick={() => handleScroll("projects")} className={navBtnClass("projects")}>
                         Projects
                     </button>
-                    <button onClick={() => handleScroll("experience")} className={navBtnClass("experience")}>
-                        Experience
-                    </button>
+                   
                     <button onClick={() => handleScroll("contact")} className={navBtnClass("contact")}>
                         Contact
                     </button>

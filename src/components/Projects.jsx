@@ -32,6 +32,8 @@ const Projects = () => {
               description={project.description}
               image={project.image}
               tech={project.tech}
+              demo={project.demo}
+              code={project.code}
             />
           ))}
 

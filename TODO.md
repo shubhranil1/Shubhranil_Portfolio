@@ -1,0 +1,2 @@
+- [ ] Update src/components/Projects.jsx to pass demo and code props to ProjectCard
+- [ ] Update src/components/ProjectCard.jsx to accept demo and code props and set href with target="_blank" and rel="noopener noreferrer"
