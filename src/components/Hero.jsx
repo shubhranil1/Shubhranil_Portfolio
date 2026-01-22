@@ -14,9 +14,9 @@ const Hero = () => {
       className='min-h-screen flex items-center pt-20 pb-16 bg-linear-to-r from-slate-900 via-slate-700 to-dark-100'
 
     >
-      <div className='container mx-auto px-6 flex flex-col md:flex-row items-center justify-between'>
+      <div className=' container mx-auto px-6 flex flex-col md:flex-row items-center justify-between'>
         {/* Left side contant */}
-        <div className='md:w-1/2 mb-10 md:mb-0'>
+        <div className='md:w-1/2 mb-10 md:mb-0 lg:mt-0 mt-10'>
           <h1 className='text-4xl md:text-6xl font-bold mb-4 '>Hi I am <span>Shubhranil Chowdhury</span></h1>
           <h2 className='text-2xl md:text-4xl font-semibold mb-6 typewriter '>Full Stack Developer </h2>
           <p className='text-lg text-gray-300 mb-8' >I create stunning web experiences with modern technolgies andpinovative design </p>
