@@ -27,12 +27,12 @@ const Navbar = () => {
 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex space-x-10">
-                    <button onClick={() => handleScroll("home")} className="text-white/80 hover:text-purple">Home</button>
+                    <button onClick={() => handleScroll("home")} className="cursor-pointer text-white/80 hover:text-purple">Home</button>
                     <button onClick={() => handleScroll("about")} className="text-white/80 hover:text-purple">About</button>
-                    <button onClick={() => handleScroll("skills")} className="text-white/80 hover:text-purple">Skills</button>
-                    <button onClick={() => handleScroll("projects")} className="text-white/80 hover:text-purple">Projects</button>
+                    <button onClick={() => handleScroll("skills")} className="cursor-pointer text-white/80 hover:text-purple">Skills</button>
+                    <button onClick={() => handleScroll("projects")} className="cursor-pointer text-white/80 hover:text-purple">Projects</button>
                     <button onClick={() => handleScroll("experience")} className="text-white/80 hover:text-purple">Experience</button>
-                    <button onClick={() => handleScroll("contact")} className="text-white/80 hover:text-purple">Contact</button>
+                    <button onClick={() => handleScroll("contact")} className="cursor-pointer text-white/80 hover:text-purple">Contact</button>
                 </div>
 
                 {/* Mobile Button */}

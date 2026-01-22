@@ -29,7 +29,7 @@ const Skills = () => {
                                 <p className='text-gray-400 mb-4'>{skill.description}</p>
                                 <div className='flex flex-wrap gap-2'>
                                     {skill.tags.map((tech) => (
-                                        <span key={tech} className='px-3 py-1 bg-dark-400 rounded-full text-sm'></span>
+                                        <span key={tech} className='px-3 py-1 bg-dark-400 rounded-full text-sm'>{tech}</span>
                                     ))}
                                 </div>
 

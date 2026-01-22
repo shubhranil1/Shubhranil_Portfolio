@@ -29,13 +29,13 @@ const Hero = () => {
         </div>
         {/* Right side image */}
         <div className='md:w-1/2 flex justify-center'>
-          <div className='relative w-54 h-54 md:w-80 md:h-80'>
+          <div className='relative w-60 h-60 md:w-80 md:h-80'>
             <div className='absolute inset-0 rounded-full bg-linear-to-r from-purple-500 to-pink-500 animate-pulse-slow opacity-70'>
               <motion.img 
               animate={{y:[0, -20, 0]}}
               transition={{duration:4,repeat:Infinity,repeatType:"loop",ease:"easeInOut"}}
-              className='relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover z-10 animate-float'
-              src={assets.profileImg} alt="profile" />
+              className='w-full h-full md:object-contain object-cover object-center rounded-full animate-float'
+              src={assets.heroImg} alt="profile" />
 
             </div>
 

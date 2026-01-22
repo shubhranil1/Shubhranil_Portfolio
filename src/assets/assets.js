@@ -1,6 +1,7 @@
 import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 
-import profileImg from '../assets/profile.avif';
+import heroImg from '../assets/hero_image.png';
+import profileImg from '../assets/profile.jpeg';
 import projectImg1 from '../assets/project1.avif';
 import projectImg2 from '../assets/project2.avif';
 import projectImg3 from '../assets/project3.avif';
@@ -11,6 +12,7 @@ import projectImg6 from '../assets/project6.avif';
 
 export const assets = {
     profileImg,
+    heroImg
 }
 
 
@@ -55,18 +57,6 @@ export const skills = [
     icon: FaDatabase,
     description: 'Designing and optimizing databases for performance and scalability.',
     tags: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase']
-  },
-  {
-    title: 'Mobile Development',
-    icon: FaMobileAlt,
-    description: 'Building cross-platform mobile applications with modern tools.',
-    tags: ['React Native', 'Flutter', 'Ionic', 'Swift']
-  },
-  {
-    title: 'Cloud & DevOps',
-    icon: FaCloud,
-    description: 'Deploying and managing applications in cloud environments.',
-    tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
   },
   {
     title: 'Tools & Technologies',
