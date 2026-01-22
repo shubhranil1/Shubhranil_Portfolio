@@ -2,10 +2,10 @@ import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTo
 
 import heroImg from '../assets/hero_image.png';
 import profileImg from '../assets/profile.jpeg';
-import projectImg1 from '../assets/project1.avif';
-import projectImg2 from '../assets/project2.avif';
-import projectImg3 from '../assets/project3.avif';
-import projectImg4 from '../assets/project4.avif';
+import projectImg1 from '../assets/project1.png';
+import projectImg2 from '../assets/project2.png';
+import projectImg3 from '../assets/project3.png';
+import projectImg4 from '../assets/project4.png';
 import projectImg5 from '../assets/project5.avif';
 import projectImg6 from '../assets/project6.avif';
 
@@ -43,7 +43,7 @@ export const skills = [
   {
     title: 'Frontend Development',
     icon: FaReact,
-    description: 'Building responsive and interactive user interfaces with modern frameworks.',
+    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
     tags: ['React', 'Vue.js', 'Angular', 'TypeScript']
   },
   {
@@ -70,8 +70,8 @@ export const skills = [
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
+    title: "My Portfolio Website",
+    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
     image: projectImg1,
     tech: ["React", "Node.js", "MongoDB", "Stripe"],
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
@@ -79,8 +79,8 @@ export const projects = [
     code: "#",
   },
   {
-    title: "Task Management App",
-    description: "A productivity application with drag-and-drop functionality and real-time updates.",
+    title: "Online Educatin Landing Page",
+    description: "A responsive landing page for an online education platform with course listings and user testimonials.",
     image: projectImg2,
     tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
@@ -88,8 +88,8 @@ export const projects = [
     code: "#",
   },
   {
-    title: "Fitness Tracker",
-    description: "A mobile app for tracking workouts, nutrition, and health metrics.",
+    title: "College Website",
+    description: "Making a simple college website ",
     image: projectImg3,
     tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
     icons: [FaReact, FaDatabase],
@@ -97,32 +97,15 @@ export const projects = [
     code: "#",
   },
   {
-    title: "Portfolio Website",
-    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
+    title: "Racing Game",
+    description: "create a normal racing game .",
     image: projectImg4,
     tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
     icons: [FaReact, FaCloud],
     demo: "#",
     code: "#",
   },
-  {
-    title: "Chat App",
-    description: "A real-time chat application with group messaging, emojis, and file sharing.",
-    image: projectImg5,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaNodeJs, FaDatabase ],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "AI Image Generator",
-    description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
-    image: projectImg6,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
-    icons: [FaRobot, FaReact, FaCloud],
-    demo: "#",
-    code: "#",
-  }
+  
 ];
 
 
