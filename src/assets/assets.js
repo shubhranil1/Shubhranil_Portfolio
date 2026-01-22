@@ -56,7 +56,7 @@ export const skills = [
     title: 'Database Management',
     icon: FaDatabase,
     description: 'Designing and optimizing databases for performance and scalability.',
-    tags: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase']
+    tags: ['MongoDB', 'MySQL']
   },
   {
     title: 'Tools & Technologies',
@@ -71,7 +71,7 @@ export const skills = [
 export const projects = [
   {
     title: "My Portfolio Website",
-    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
+    description: "A personal portfolio to showcase projects and skills, ",
     image: projectImg1,
     tech: ["React", "Node.js","javascript", "tailwind CSS"],
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
@@ -89,7 +89,7 @@ export const projects = [
   },
   {
     title: "College Website",
-    description: "Making a simple college website ",
+    description: "Making a simple college website for providing information to students and faculty.",
     image: projectImg3,
     tech: ["Html", "Css", "Bootstrap"],
     icons: [FaReact, FaDatabase],
@@ -100,7 +100,7 @@ export const projects = [
     title: "Racing Game",
     description: "create a normal racing game .",
     image: projectImg4,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
+    tech: ["Html", "Css", "JavaScript"],
     icons: [FaReact, FaCloud],
     demo: "#",
     code: "#",
