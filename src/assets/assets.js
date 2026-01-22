@@ -73,7 +73,7 @@ export const projects = [
     title: "My Portfolio Website",
     description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
     image: projectImg1,
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
+    tech: ["React", "Node.js","javascript", "tailwind CSS"],
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
     demo: "#",
     code: "#",
@@ -82,7 +82,7 @@ export const projects = [
     title: "Online Educatin Landing Page",
     description: "A responsive landing page for an online education platform with course listings and user testimonials.",
     image: projectImg2,
-    tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
+    tech: ["Html", "Css", "JavaScript", ],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
     demo: "#",
     code: "#",
@@ -91,7 +91,7 @@ export const projects = [
     title: "College Website",
     description: "Making a simple college website ",
     image: projectImg3,
-    tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
+    tech: ["Html", "Css", "Bootstrap"],
     icons: [FaReact, FaDatabase],
     demo: "#",
     code: "#",
@@ -109,29 +109,4 @@ export const projects = [
 ];
 
 
-export const workData = [
-  {
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    duration: "2020 - Present",
-    description:
-      "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
-    color: "purple"
-  },
-  {
-    role: "Web Developer",
-    company: "Digital Solutions LLC",
-    duration: "2018 - 2020",
-    description:
-      "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
-    color: "pink"
-  },
-  {
-    role: "Junior Developer",
-    company: "StartUp Ventures",
-    duration: "2016 - 2018",
-    description:
-      "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
-    color: "blue"
-  }
-];
+
