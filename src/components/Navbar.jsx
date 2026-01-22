@@ -53,6 +53,7 @@ const Navbar = () => {
                     >
                         Shubhranil <span className="text-purple">Chowdhury</span>
                     </button>
+                    <div className='w-4 h-4 bg-purple rounded-full'></div>
                 </div>
 
                 {/* Desktop Menu */}
