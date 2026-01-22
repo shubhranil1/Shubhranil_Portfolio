@@ -75,8 +75,8 @@ export const projects = [
     image: projectImg1,
     tech: ["React", "Node.js","javascript", "tailwind CSS"],
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
-    demo: "#",
-    code: "#",
+    demo: "https://shubhranil1.github.io/Shubhranil_Portfolio/",
+    code: "https://github.com/shubhranil1/Shubhranil_Portfolio.git",
   },
   {
     title: "Online Educatin Landing Page",
@@ -84,8 +84,8 @@ export const projects = [
     image: projectImg2,
     tech: ["Html", "Css", "JavaScript", ],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-    demo: "#",
-    code: "#",
+    demo: "https://shubhranil1.github.io/Online_Education-Landing-Page/",
+    code: "https://github.com/shubhranil1/Online_Education-Landing-Page.git",
   },
   {
     title: "College Website",
@@ -93,8 +93,8 @@ export const projects = [
     image: projectImg3,
     tech: ["Html", "Css", "Bootstrap"],
     icons: [FaReact, FaDatabase],
-    demo: "#",
-    code: "#",
+    demo: "https://college-final-website.vercel.app/",
+    code: "https://github.com/shubhranil1/College_Final_Website.git",
   },
   {
     title: "Racing Game",
@@ -102,8 +102,8 @@ export const projects = [
     image: projectImg4,
     tech: ["Html", "Css", "JavaScript"],
     icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "#",
+    demo: "https://racing-game-tau.vercel.app/",
+    code: "https://github.com/shubhranil1/Racing-Game.git",
   },
   
 ];
