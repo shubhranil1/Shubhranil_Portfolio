@@ -43,13 +43,13 @@ export const skills = [
   {
     title: 'Frontend Development',
     icon: FaReact,
-    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
+    description: "Building responsive and interactive user interfaces using modern frontend frameworks.",
     tags: ['HTML', 'CSS', 'JavaScript', 'React']
   },
   {
     title: 'Backend Development',
     icon: FaServer,
-    description: 'Creating robust server-side applications and RESTful APIs.',
+    description: 'Creating robust server-side applications and APIs to power web applications.',
     tags: ['Node.js', 'javascript']
   },
   {
