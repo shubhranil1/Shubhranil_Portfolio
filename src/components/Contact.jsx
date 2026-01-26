@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { FaMapMarkerAlt } from 'react-icons/fa'
+import { FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaPhone, FaTwitter } from 'react-icons/fa'
 
 const Contact = () => {
     return (
@@ -56,13 +56,57 @@ const Contact = () => {
                                 <FaMapMarkerAlt />
                             </div>
                             <div>
-                                <h3>Location</h3>
-                                <p>Dharma,Paschim Medinipur</p>
+                                <h3 className='text-xl font-semibold mb-2' >Location</h3>
+                                <p className='text-gray-400'>Dharma,Paschim Medinipur</p>
                             </div>
+                            
+
+                        </div>
+                        <div className='flex items-start'>
+                            <div className='text-purple text-2xl mr-4'>
+                                <FaEnvelope />
+                            </div>
+                            <div>
+                                <h3 className='text-xl font-semibold mb-2' >Email</h3>
+                                <p className='text-gray-400'>subhranilchowdhury27@gmail.com</p>
+                            </div>
+                            
+
+                        </div>
+                        <div className='flex items-start'>
+                            <div className='text-purple text-2xl mr-4'>
+                                <FaPhone />
+                            </div>
+                            <div>
+                                <h3 className='text-xl font-semibold mb-2' >Phone</h3>
+                                <p className='text-gray-400'>+91 8900547905</p>
+                            </div>
+                            
+
+                        </div> 
+                         <div className='pt-4 '>
+                        <h3 className='text-lg  font-semibold mb-2'>
+                            Follow Me
+                        </h3>
+                        <div className='flex space-x-4'>
+                            <a href="#" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center hover:bg-purple transition duration-300'>
+                                <FaGithub/>
+                            </a>
+                             <a href="https://www.linkedin.com/in/shubhranil-chowdhury" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center hover:bg-purple transition duration-300'>
+                                <FaLinkedin/>
+                            </a>
+                             <a href="#" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center hover:bg-purple transition duration-300'>
+                                <FaTwitter/>
+                            </a>
+                             
+                            
 
                         </div>
 
                     </div>
+
+                    </div>
+                   
                     
 
                 </div>

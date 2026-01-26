@@ -1,7 +1,7 @@
 import React from 'react'
 import { easeOut, motion } from 'framer-motion'
 import { GiDuration } from 'react-icons/gi'
-import {assets} from '../assets/assets'
+import { assets } from '../assets/assets'
 
 const Hero = () => {
   return (
@@ -31,11 +31,11 @@ const Hero = () => {
         <div className='md:w-1/2 flex justify-center'>
           <div className='relative w-60 h-60 md:w-80 md:h-80'>
             <div className='absolute inset-0 rounded-full bg-linear-to-r from-purple-500 to-pink-500 animate-pulse-slow opacity-70'>
-              <motion.img 
-              animate={{y:[0, -20, 0]}}
-              transition={{duration:4,repeat:Infinity,repeatType:"loop",ease:"easeInOut"}}
-              className='w-full h-full md:object-contain object-cover object-center rounded-full animate-float'
-              src={assets.heroImg} alt="profile" />
+              <motion.img
+                animate={{ y: [0, -20, 0] }}
+                transition={{ duration: 4, repeat: Infinity, repeatType: "loop", ease: "easeInOut" }}
+                className='w-full h-full md:object-contain object-cover object-center rounded-full animate-float'
+                src={assets.heroImg} alt="profile" />
 
             </div>
 
