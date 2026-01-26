@@ -89,7 +89,7 @@ const Contact = () => {
                             Follow Me
                         </h3>
                         <div className='flex space-x-4'>
-                            <a href="#" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center hover:bg-purple transition duration-300'>
+                            <a href="https://github.com/shubhranil1" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center hover:bg-purple transition duration-300'>
                                 <FaGithub/>
                             </a>
                              <a href="https://www.linkedin.com/in/shubhranil-chowdhury" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center hover:bg-purple transition duration-300'>
